@@ -1,0 +1,28 @@
+:root{
+    --primary-color: #d2872c;
+    --second-color: #766f68;
+
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+
+    background-color: #FFFFFF;
+
+    color: var(--second-color);
+}
+
+h1, h2, button, a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    line-height: 1;
+}
