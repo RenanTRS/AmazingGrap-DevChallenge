@@ -1,3 +1,54 @@
-h1{
-    font-size: 1rem;
+.content{
 }
+.content header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 2rem 2.5rem;
+}
+
+.content header h2{
+    color: var(--primary-color);
+    
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+/*Btn mobile*/
+.content header span{
+    width: 2rem;
+    height: .3rem;
+
+    background-color: var(--second-color);
+}
+.content header span::before, .content header span::after{
+    content: '';
+    
+    width: 2rem;
+    height: .3rem;
+
+    display: block;
+    
+    position: relative;
+    
+    background-color: var(--second-color);
+}
+.content header span::before{
+    top: -0.7rem;
+}
+.content header span::after{
+    top: .4rem;
+}
+
+/*Menu*/
+.content header nav{
+    display: none;
+}
+/*
+.content main{
+    padding: 0 4rem;
+}
+.content main img{
+    width: 100%
+}*/
