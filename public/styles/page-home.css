@@ -6,7 +6,8 @@
     align-items: center;
     
     padding: 4rem 2.5rem 0;
-    margin-bottom: 7rem;
+    /*margin-bottom: 7rem;*/
+    margin-bottom: clamp(1.5rem, 3vh, 10rem);
 }
 
 .content header h2{
