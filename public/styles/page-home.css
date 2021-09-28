@@ -63,7 +63,7 @@
 
 .content main h1{
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: clamp(2.5rem, 10vw, 9rem);
 
     margin-bottom: 3.5rem;
 }
