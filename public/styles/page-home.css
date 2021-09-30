@@ -1,35 +1,47 @@
-.content main{
-    padding: 0 4rem;
+#page-home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+#container{
+    margin: auto;
+
+    padding: 0 0 7rem;
+}
+#container main{
+    margin: 0 4rem;
 
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.content main img{
+#container main img{
     width: 100%;
 
     margin-bottom: 3.5rem;
 }
 
-.content main h1{
+#container main h1{
     font-weight: bold;
-    font-size: clamp(2.5rem, 10vw, 9rem);
+    font-size: clamp(2.5rem, 10vw, 8rem);
 
     margin-bottom: 3.5rem;
 }
 
-.content main p{
-    font-size: clamp(1.5rem, 5vw, 3.5rem);
+#container main p{
+    font-size: clamp(1.5rem, 5vw, 2.8rem);
 
     margin-bottom: 3.5rem;
 }
 
-.content main a{
+#container main a{
    height: 6rem;
    width: 85%;
-   max-width: 40rem;
+   max-width: 31rem;
 
    margin: 0 auto;
 
-   display: block;
    background: var(--primary-color);
 
    display: flex;
@@ -44,3 +56,37 @@
    border-radius: 1.8rem;
 }
 
+@media screen and (min-width: 1000px) {
+    #container{
+        background: url(../images/team.jpg) no-repeat;
+        background-position-x: 100%;
+        background-position-y: clamp(17rem, 48%, 18rem);;
+        background-size: clamp(30rem, 57vw, 70rem);
+        
+        width: min(100%, 130rem);
+    }
+
+    #container main{
+        text-align: left;
+
+        margin: 0 4rem 0 9rem;
+
+        height: 62vh;
+    }
+    #container main img{
+        display: none;
+    }
+
+    main h1{
+        width: 65rem;
+    }
+
+    main p{
+        width: 40rem;
+    }
+
+    #container main a{
+        margin: initial;
+    }
+
+}

@@ -1,14 +1,13 @@
-.content header{
+#container header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     
     padding: 4rem 2.5rem 0;
     margin-bottom: 7rem;
-    /*margin-bottom: clamp(1.5rem, 3vh, 10rem);*/
 }
 
-.content header h2{
+#container header h2{
     color: var(--primary-color);
 
     margin-left: 1rem;
@@ -18,13 +17,13 @@
 }
 
 /*Btn mobile*/
-.content header span{
+#container header span{
     width: 2rem;
     height: .3rem;
 
     background-color: var(--second-color);
 }
-.content header span::before, .content header span::after{
+#container header span::before, #container header span::after{
     content: '';
     
     width: 2rem;
@@ -36,33 +35,35 @@
     
     background-color: var(--second-color);
 }
-.content header span::before{
+#container header span::before{
     top: -0.7rem;
 }
-.content header span::after{
+#container header span::after{
     top: .4rem;
 }
 
-.content header nav{
+#container header nav{
     display: none;
 }
 
 
 @media screen and (min-width: 1000px){
-    .content header{
-        margin: 4rem 0 7rem;
+    #container header{
+        margin-bottom: 5rem;
+        margin: 4rem 1rem;
+        padding: 0;
     }
     
-    .content header h2{
+    #container header h2{
         margin-left: 2.5rem;
 
         font-size: 3rem;
     }
-    .content header span{
+    #container header span{
         display: none;
     }
 
-    .content header nav{
+    #container header nav{
         display: flex;
     }
 
