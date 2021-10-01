@@ -6,15 +6,15 @@
 #container{
     margin: auto;
 
-    padding: 0 0 7rem;
+    padding: 1rem 0 11rem;
 }
 #container main{
     margin: 0 4rem;
 
     text-align: center;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;*/
 }
 #container main img{
     width: 100%;
@@ -71,7 +71,7 @@
 
         margin: 0 4rem 0 9rem;
 
-        height: 62vh;
+        /*height: 62vh;*/
     }
     #container main img{
         display: none;
