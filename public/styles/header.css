@@ -16,13 +16,14 @@
     font-size: 2.5rem;
 }
 
-/*Btn mobile*/
+/*
 #container header span{
     width: 2rem;
     height: .3rem;
-
+    
     background-color: var(--second-color);
 }
+
 #container header span::before, #container header span::after{
     content: '';
     
@@ -40,6 +41,11 @@
 }
 #container header span::after{
     top: .4rem;
+}
+*/
+/*Btn mobile*/
+#container header .menu-toggle{
+
 }
 
 #container header nav{
