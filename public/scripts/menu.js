@@ -1,8 +1,6 @@
-let show = true;
-
-const menuSection = document.querySelector(".menu-section");
-const menuToggle = menuSection.querySelector(".menu-toggle");
+const navMenu = document.querySelector(".menu");
+const menuToggle = document.querySelector(".menu-toggle");
 
 menuToggle.addEventListener('click', ()=>{
-    menuSection.classList.toggle('on');
+    navMenu.classList.toggle('active');
 });

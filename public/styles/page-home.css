@@ -5,8 +5,6 @@
 }
 #container{
     margin: auto;
-
-    padding: 1rem 0 11rem;
 }
 #container main{
     margin: 0 4rem;
@@ -62,7 +60,7 @@
         background-position-x: 100%;
         background-position-y: clamp(17rem, 48%, 18rem);;
         background-size: clamp(30rem, 57vw, 70rem);
-        
+        padding: 1rem 0 11rem;
         width: min(100%, 130rem);
     }
 
