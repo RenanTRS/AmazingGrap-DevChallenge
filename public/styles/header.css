@@ -36,6 +36,15 @@ header .menu-toggle{
     
     gap: .2rem;
 }
+header .menu-toggle.on .one{
+    transform: rotate(45deg) translate(5px, 5px) scaleX(1.3);
+}
+header .menu-toggle.on .two, header .menu-toggle.on .three{
+    opacity: 0;
+}
+header .menu-toggle.on .four{
+    transform: rotate(-45deg) translate(5px, -6px) scaleX(1.3);
+}
 
 header .menu{
     position: absolute;
