@@ -44,8 +44,23 @@
 }
 */
 /*Btn mobile*/
-#container header .menu-toggle{
 
+.one, .two, .three, .four{
+    background: var(--second-color);
+    
+    width: 100%;
+    height: .3rem;
+}
+#container header .menu-toggle{
+    width: 2rem;
+    height: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: .2rem;
 }
 
 #container header nav{
