@@ -7,7 +7,7 @@
     margin-bottom: 7rem;
 }
 
-#container header h2{
+header h2{
     color: var(--primary-color);
 
     margin-left: 1rem;
@@ -43,6 +43,7 @@
     top: .4rem;
 }
 */
+
 /*Btn mobile*/
 
 .one, .two, .three, .four{
@@ -50,20 +51,24 @@
     
     width: 100%;
     height: .3rem;
+
+    transition-duration: 0.3s;
 }
-#container header .menu-toggle{
+header .menu-toggle{
     width: 2rem;
     height: 3rem;
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    
+    margin-right: 1.2rem;
+    
     gap: .2rem;
 }
 
-#container header nav{
+header .menu{
     display: none;
 }
 
@@ -80,6 +85,53 @@
     background: #ffffff;
 
     z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-section.on nav{
+    display: block;
+
+    width: 15rem;
+}
+.menu-section.on nav ul{
+    display: block;
+    text-align: center;
+}
+.menu-section.on nav li{
+    border: none;
+    border-radius: 8px;
+    
+    box-shadow: 0px 3px 5px #ddd4d4;
+
+    margin-bottom: 2rem;
+}
+
+.menu-section.on nav ul a{
+    transition-duration: 0.5s;
+    
+    color: var(--second-color);
+
+    line-height: 4rem;
+
+    display: block;
+}
+
+.menu-section.on .menu-toggle{
+    position: absolute;
+    
+    right: 0;
+    top: 1.5rem;
+}
+.menu-section.on .menu-toggle .one{
+    transform: rotate(45deg) translate(0px, 0px);
+}
+.menu-section.on .menu-toggle .two, .menu-section.on .menu-toggle .three{
+    opacity: 0;
+}
+.menu-section.on .menu-toggle .four{
+    transform: rotate(-45deg) translate(10px, -11px);
 }
 
 @media screen and (min-width: 1000px){
@@ -89,16 +141,16 @@
         padding: 0;
     }
     
-    #container header h2{
+    header h2{
         margin-left: 2.5rem;
 
         font-size: 3rem;
     }
-    #container header span{
+    header span{
         display: none;
     }
 
-    #container header nav{
+    header nav{
         display: flex;
     }
 
