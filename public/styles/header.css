@@ -16,34 +16,6 @@ header h2{
     font-size: 2.5rem;
 }
 
-/*
-#container header span{
-    width: 2rem;
-    height: .3rem;
-    
-    background-color: var(--second-color);
-}
-
-#container header span::before, #container header span::after{
-    content: '';
-    
-    width: 2rem;
-    height: .3rem;
-
-    display: block;
-    
-    position: relative;
-    
-    background-color: var(--second-color);
-}
-#container header span::before{
-    top: -0.7rem;
-}
-#container header span::after{
-    top: .4rem;
-}
-*/
-
 /*Btn mobile*/
 
 .one, .two, .three, .four{
@@ -146,11 +118,11 @@ header .menu{
 
         font-size: 3rem;
     }
-    header span{
+    header .menu-toggle{
         display: none;
     }
 
-    header nav{
+    header .menu{
         display: flex;
     }
 
