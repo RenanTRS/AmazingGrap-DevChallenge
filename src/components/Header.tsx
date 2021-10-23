@@ -1,7 +1,8 @@
+import React from "react";
 export function Header(){
     return (
         <>
-        <header>
+            <header>
                 <h2>DevChallenge</h2>
                 <section className="menu-toggle">
                     <div>
