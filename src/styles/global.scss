@@ -1,14 +1,17 @@
-$primary-color: #d2872c;
-$second-color: #766f68;
 
+    $primary-color: #d2872c;
+    $second-color: #766f68;
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    font-size: 62.5%;
 }
 
 html{
     font-family: 'Roboto', sans-serif;
+    
 }
 
 body{
@@ -17,6 +20,7 @@ body{
     background-color: #ffffff;
 
     color: $second-color;
+
 }
 
 h1, h2, nav, ul, li, p, a{

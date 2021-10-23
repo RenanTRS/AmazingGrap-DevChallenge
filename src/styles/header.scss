@@ -1,0 +1,36 @@
+@import "global.scss";
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 4.4rem 3rem 0;
+    h2{
+        font-weight: 700;
+        font-size: 2.2rem;
+
+        color: $primary-color;
+    }
+
+}
+
+
+.menu-toggle{
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: .24rem;
+
+        span.one, span.two, span.three, span.four{
+            height: .32rem;
+            width: 2.4rem;
+            
+            background-color: $second-color;
+        }
+    }
+
+    nav ul{
+        display: none;
+    }
+}
