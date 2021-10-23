@@ -1,4 +1,4 @@
-import team from "../assets/images/team.png";
+import team from "../assets/images/team.svg";
 
 export function Home(){
     return (
