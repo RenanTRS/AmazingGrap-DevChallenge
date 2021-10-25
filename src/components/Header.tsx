@@ -15,8 +15,8 @@ export function Header(){
         <>
             <header>
                 <h2>DevChallenge</h2>
-                <section className="menu-toggle">
-                    <div>
+                <section className="menu-section">
+                    <div onClick={showMenu} className="menu-toggle">
                         <span className="one"></span>
                         <span className="two"></span>
                         <span className="three"></span>
