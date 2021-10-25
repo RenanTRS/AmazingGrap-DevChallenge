@@ -4,7 +4,7 @@ import "./styles/global.scss";
 
 function App() {
   return (
-    <div className="container">
+    <div id="container">
       <Home />
     </div>
   );
