@@ -36,3 +36,15 @@ a{
 li{
     list-style: none;
 }
+
+#container{
+    padding: 4.4rem 3rem 0;
+}
+
+@media screen and (min-width: 770px) {
+    #container{
+        padding: 0;
+
+        overflow: hidden;
+    }
+}
