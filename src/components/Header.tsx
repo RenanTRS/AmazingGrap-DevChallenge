@@ -3,6 +3,14 @@ import React from "react";
 import "../styles/header.scss";
 
 export function Header(){
+    function showMenu(){
+        //const menu = document.querySelector(".menu-section nav");
+        const menuToggle = document.querySelector(".menu-toggle");
+        
+        menuToggle?.classList.toggle('on');
+        
+    }
+
     return (
         <>
             <header>
