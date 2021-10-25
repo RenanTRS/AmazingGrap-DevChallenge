@@ -7,7 +7,7 @@ export function Main(){
     return (
         <>
             <main>
-                <img src={team} alt="" />
+                <img src={team} alt="Team" />
                 <section>
                     <strong>Create amazing graphics</strong>
                     <p>Colaborate and create beautiful graphics with your team.</p>
