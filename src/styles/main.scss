@@ -1,0 +1,109 @@
+@import "global.scss";
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+
+    margin: 7rem 2.5rem 0;
+
+    >img{
+        width: 100%;
+    }
+    
+    section {
+        strong{
+            display: block;
+            
+            margin-top: 3.5rem;
+
+            line-height: 3.9rem;
+            font-size: 3.4rem;
+            font-weight: 700;
+        }
+
+        p{
+            margin-top: 3rem;
+
+            font-size: 1.7rem;
+            font-weight: 400;
+            line-height: 1.9rem;
+        }
+    }
+
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 2.3rem;
+
+        width: 100%;
+        max-width: 40.4rem;
+        height: 5.1rem;
+
+        background: $primary-color;
+
+        border-radius: 1.5rem;
+
+        color: #fff;
+
+        font-size: 2.1rem;
+        font-weight: 700;
+    }
+    
+}
+
+@media screen and (min-width: 770px) {
+    main{
+        background: url(../assets/images/team.svg) no-repeat;
+        background-size: 82rem;
+        background-position: 498px 164px;
+
+        align-items: flex-start;
+        
+        text-align: left;
+        
+        margin: 0 0 0 11.6rem;
+
+        
+        
+        >img{
+            display: none;
+        }
+
+        section{
+            width: 66rem;
+
+            strong{
+                margin-top: 12.7rem;
+
+                font-size: 9.3rem;
+                line-height: 10.8rem;
+
+            }
+
+            p{
+                margin-top: 3.2rem;
+                
+                font-size: 3.8rem;
+                line-height: 4.4rem;
+            }
+        }
+
+        a{
+            margin-top: 6.6rem;
+
+            height: 8.8rem;
+
+            border-radius: 2.2rem;
+
+            font-size: 4rem;
+        }
+    }
+    
+}
