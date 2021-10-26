@@ -52,3 +52,24 @@ li{
         overflow: hidden;
     }
 }
+@media screen and (min-width: 1024px) {
+    #container{
+        background: url(../assets/images/team.svg) no-repeat;
+        background-size: 58rem;
+        background-position: 43rem 19rem;
+    }
+    
+}
+@media screen and (min-width: 1300px) {
+    #container{
+        background-size: 66rem;
+        background-position: 637px 186px;
+        padding: 0px 0 3rem 0;
+    }
+}
+@media screen and (min-width: 1440px){
+    #container{
+        background-size: 82rem;
+        background-position: 612px 346px;
+    }
+}
