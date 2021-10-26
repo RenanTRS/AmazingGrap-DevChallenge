@@ -40,7 +40,11 @@ li{
 #container{
     padding: 4.4rem 3rem 0;
 }
-
+@media screen and (min-width: 320px) {
+    #container{
+        overflow: hidden;
+    }
+}
 @media screen and (min-width: 770px) {
     #container{
         padding: 0;

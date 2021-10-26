@@ -9,7 +9,7 @@ main{
     
     text-align: center;
 
-    margin: 7rem 2.5rem 0;
+    margin: 7rem 2.5rem 2rem;
 
     transition-duration: .5s;
 
@@ -67,6 +67,15 @@ main.toggle{
     }
 }
 
+@media screen and (min-width: 425px) {
+    main{
+        margin: 4.9rem 2.5rem 0;
+
+        a{
+            margin: 2.3rem 0 2rem;
+        }
+    }
+}
 @media screen and (min-width: 770px) {
     main{
         background: url(../assets/images/team.svg) no-repeat;
