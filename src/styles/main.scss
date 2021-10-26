@@ -57,6 +57,13 @@ main{
     }
     
 }
+main.toggle{
+    filter: blur(1.5rem);
+
+    a{
+        pointer-events: none;
+    }
+}
 
 @media screen and (min-width: 770px) {
     main{

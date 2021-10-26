@@ -16,7 +16,7 @@ export function Main(){
 
     return (
         <>
-            <main>
+            <main onClick={hideMenu}>
                 <img src={team} alt="Team" />
                 <section>
                     <strong>Create amazing graphics</strong>
