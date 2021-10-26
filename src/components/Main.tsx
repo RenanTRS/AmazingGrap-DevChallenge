@@ -4,6 +4,16 @@ import "../styles/main.scss";
 import team from "../assets/images/team.svg";
 
 export function Main(){
+    function hideMenu(){
+        const menu = document.querySelector(".menu-section nav");
+        const menuToggle = document.querySelector(".menu-toggle");
+        const main = document.querySelector('main');
+
+        menuToggle?.classList.remove('on');
+        menu?.classList.remove('active');
+        main?.classList.remove('toggle');
+    }
+
     return (
         <>
             <main>
