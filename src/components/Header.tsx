@@ -4,11 +4,14 @@ import "../styles/header.scss";
 
 export function Header(){
     function showMenu(){
-        //const menu = document.querySelector(".menu-section nav");
+        const menu = document.querySelector(".menu-section nav");
         const menuToggle = document.querySelector(".menu-toggle");
         
         menuToggle?.classList.toggle('on');
+        menu?.classList.toggle('active');
         
+        const main = document.querySelector('main');
+        main?.classList.toggle('toggle');
     }
 
     return (
