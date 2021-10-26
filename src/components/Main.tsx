@@ -22,7 +22,7 @@ export function Main(){
                     <strong>Create amazing graphics</strong>
                     <p>Colaborate and create beautiful graphics with your team.</p>
                 </section>
-                <a href="https://www.google.com.br" target="_blank" rel="noreferrer">Start now</a>    
+                <a href="#teste">Start now</a>    
             </main>
         </>
     );
