@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/RenanTRS/AmazingGrap-DevChallenge/static/css/main.dcaa6d6d.chunk.css",
+    "main.js": "/RenanTRS/AmazingGrap-DevChallenge/static/js/main.5a9a2a7a.chunk.js",
+    "main.js.map": "/RenanTRS/AmazingGrap-DevChallenge/static/js/main.5a9a2a7a.chunk.js.map",
+    "runtime-main.js": "/RenanTRS/AmazingGrap-DevChallenge/static/js/runtime-main.94979e6f.js",
+    "runtime-main.js.map": "/RenanTRS/AmazingGrap-DevChallenge/static/js/runtime-main.94979e6f.js.map",
+    "static/js/2.7af09709.chunk.js": "/RenanTRS/AmazingGrap-DevChallenge/static/js/2.7af09709.chunk.js",
+    "static/js/2.7af09709.chunk.js.map": "/RenanTRS/AmazingGrap-DevChallenge/static/js/2.7af09709.chunk.js.map",
+    "index.html": "/RenanTRS/AmazingGrap-DevChallenge/index.html",
+    "static/css/main.dcaa6d6d.chunk.css.map": "/RenanTRS/AmazingGrap-DevChallenge/static/css/main.dcaa6d6d.chunk.css.map",
+    "static/js/2.7af09709.chunk.js.LICENSE.txt": "/RenanTRS/AmazingGrap-DevChallenge/static/js/2.7af09709.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/RenanTRS/AmazingGrap-DevChallenge/static/media/team.1fc6e815.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94979e6f.js",
+    "static/js/2.7af09709.chunk.js",
+    "static/css/main.dcaa6d6d.chunk.css",
+    "static/js/main.5a9a2a7a.chunk.js"
+  ]
+}
