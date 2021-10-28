@@ -68,11 +68,17 @@ li{
     }
     
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1270px) {
     #container{
         background-size: 66rem;
-        background-position: 637px 186px;
+        background-position: 627px 186px;
         padding: 0px 0 3rem 0;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #container{
+        background-position: 637px 186px;
     }
 }
 @media screen and (min-width: 1440px){
