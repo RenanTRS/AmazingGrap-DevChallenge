@@ -4,8 +4,10 @@ import "./styles/global.scss";
 
 function App() {
   return (
-    <div id="container">
-      <Home />
+    <div id="page">
+      <div id="container">
+        <Home />
+      </div>
     </div>
   );
 }
