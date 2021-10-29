@@ -9,31 +9,33 @@ main{
     
     text-align: center;
 
-    margin: 7rem 2.5rem 2rem;
+    margin: clamp(1rem, 6vh, 7rem) 0 2rem;
+    
 
     transition-duration: .5s;
 
     >img{
         width: 100%;
+        display: none;
     }
     
     section {
         strong{
             display: block;
             
-            margin-top: 3.5rem;
+            margin-top: clamp(3.5rem, 8vh, 12.7rem);
 
-            line-height: 3.9rem;
-            font-size: 3.4rem;
+            line-height: clamp(5.9rem, 12vh, 7.8rem);
+            font-size: clamp(8rem, 12vw, 9.3rem);
             font-weight: 700;
         }
 
         p{
-            margin-top: 3rem;
+            margin-top: clamp(3rem, 7vh, 5rem);
 
-            font-size: 1.7rem;
+            font-size: clamp(1.9rem, 3.5vw, 3.8rem);
             font-weight: 400;
-            line-height: 1.9rem;
+            line-height: clamp(1.9rem, 4vh ,4.9rem);
         }
     }
 
@@ -42,10 +44,12 @@ main{
         align-items: center;
         justify-content: center;
 
-        margin-top: 2.3rem;
+        margin-top: clamp(2.3rem, 5vh, 6rem);
 
-        width: 100%;
-        max-width: 40.4rem;
+        width: 70%;
+        max-width: 30.4rem;
+        /*width: min(70%, 30.4rem);*/
+        /*max-width: 40.4rem;*/
         height: 5.1rem;
 
         background: $primary-color;
@@ -69,10 +73,10 @@ main.toggle{
 
 @media screen and (min-width: 425px) {
     main{
-        margin: 4.9rem 2.5rem 0;
+        /*margin: 4.9rem 2.5rem 0;*/
 
         a{
-            margin: 2.3rem 0 2rem;
+            /*margin: 2.3rem 0 2rem;*/
         }
     }
 }
@@ -80,12 +84,12 @@ main.toggle{
     main{
         section{
             strong{
-                font-size: 6.7rem;
-                line-height: 5.8rem;
+                /*font-size: 6.7rem;*/
+                line-height: 9.8rem;
             }
             p{
-                font-size: 2.4rem;
-                line-height: 2.4rem;
+                /*font-size: 2.4rem;*/
+                /*line-height: 2.4rem;*/
             }
         }
     }

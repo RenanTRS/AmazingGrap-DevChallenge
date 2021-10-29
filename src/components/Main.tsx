@@ -15,7 +15,7 @@ export function Main(){
         menu?.classList.remove('active');
         main?.classList.remove('toggle');
     }
-
+    
     return (
         <>
             <main onClick={hideMenu}>
