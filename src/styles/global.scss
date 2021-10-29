@@ -20,7 +20,9 @@ body{
     background-color: #ffffff;
 
     color: $second-color;
-
+}
+body.no-scroll{
+    overflow: hidden;
 }
 
 h1, h2, nav, ul, li, p, a{

@@ -4,11 +4,13 @@ import "../styles/header.scss";
 
 export function Header(){
     function showMenu(){
+        const body = document.querySelector('body');
         const menu = document.querySelector(".menu-section nav");
         const menuToggle = document.querySelector(".menu-toggle");
         
         menuToggle?.classList.toggle('on');
         menu?.classList.toggle('active');
+        body?.classList.toggle('no-scroll');
         
         const main = document.querySelector('main');
         main?.classList.toggle('toggle');
