@@ -12,10 +12,11 @@ header{
         color: $primary-color;
     }
 
+    /*
     .one, .two, .three, .four{
         transition-duration: 0.3s;
     }
-
+    
     .menu-toggle.on .one{
         transform: rotate(45deg) translate(5px, 5px);
     }
@@ -25,6 +26,7 @@ header{
     .menu-toggle.on .four{
         transform: rotate(-45deg) translate(7px, -7px);
     }
+    */
 
 }
 
@@ -50,7 +52,8 @@ header{
         
         width: 0;
         
-        top: 9.9rem;
+        /*top: 9.9rem;*/
+        top: 0;
         bottom: 0;
         
         overflow-x: hidden;
@@ -63,6 +66,30 @@ header{
         padding: 3.3rem 0;
 
         background: #fff;
+
+        div.back-toggle{
+            
+            display: flex;
+            flex-direction: column;
+            
+            gap:1rem;
+
+            margin: 2rem 0;
+
+            span.back-one, span.back-two{
+                height: .32rem;
+                width: 2.4rem;
+
+                background-color: $second-color;
+                align-self: flex-end;
+            }
+            span.back-one{
+                transform: rotate(45deg) translate(2px, 0px);
+            }
+            span.back-two{
+                transform: rotate(-45deg) translate(9px, -7px);
+            }
+        }
         
         ul{
             display: flex;
@@ -81,9 +108,11 @@ header{
     nav.active{
         right: 0;
 
-        width: 22.5rem;
+        width: 20.5rem;
 
         padding: 3.3rem 3rem;
+
+        position: fixed;
     }
 }
 
