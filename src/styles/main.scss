@@ -111,20 +111,26 @@ main.toggle{
             width: 66rem;
 
             strong{
-                margin-top: 4.3rem;
+                /*margin-top: 4.3rem;*/
+                margin-top: clamp(4.3rem, 10vh, 12.7rem);
 
-                font-size: 8rem;
-                line-height: 9rem;
+                /*font-size: 8rem;*/
+                font-size: clamp(8rem, 7vw, 9.3rem);
+                /*line-height: 9rem;*/
+                line-height: clamp(9.8rem, 11vh, 10.8rem);
 
             }
 
             p{
                 margin-top: 3.2rem;
                 
-                font-size: 2.6rem;
-                line-height: 3.2rem;
+                /*font-size: 2.6rem;*/
+                font-size: clamp(2.6rem, 2vw, 3.8rem);
+                /*line-height: 3.2rem;*/
+                line-height: clamp(3.2rem, 4vh, 4.4rem);
                 
-                width: 37rem;
+                /*width: 37rem;*/
+                width: clamp(46rem, 42vw, 57rem);
             }
         }
 
@@ -137,7 +143,8 @@ main.toggle{
 
             font-size: 3rem;
 
-            width: 31rem;
+            /*width: 31rem;*/
+            max-width: 31rem;
         }
     }   
 }
@@ -145,12 +152,12 @@ main.toggle{
     main{
         section{
             p{
-                margin-top: 3.2rem;
+                /*margin-top: 3.2rem;*/
                 
-                font-size: 2.8rem;
-                line-height: 4.4rem;
+                /*font-size: 2.8rem;*/
+                /*line-height: 4.4rem;*/
     
-                width: 57.9rem;
+                /*width: 57.9rem;*/
             }
         }
     }
@@ -172,18 +179,18 @@ main.toggle{
             width: 66rem;
 
             strong{
-                margin-top: 12.7rem;
+                /*margin-top: 12.7rem;*/
 
-                font-size: 9.3rem;
-                line-height: 10.8rem;
+                /*font-size: 9.3rem;*/
+                /*line-height: 10.8rem;*/
 
             }
 
             p{
-                margin-top: 3.2rem;
+                /*margin-top: 3.2rem;*/
                 
-                font-size: 3.8rem;
-                line-height: 4.4rem;
+                /*font-size: 3.8rem;*/
+                /*line-height: 4.4rem;*/
             }
         }
 
@@ -196,7 +203,8 @@ main.toggle{
 
             font-size: 4rem;
 
-            width: 40.4rem;
+            /*width: 40.4rem;*/
+            max-width: 40.4rem;
         }
     }      
 }
