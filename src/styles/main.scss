@@ -71,6 +71,45 @@ main.toggle{
     }
 }
 
+@media screen and (width: 320px) and (height: 240px) {
+    main{
+        background: url(../assets/images/person1.svg) no-repeat, url(../assets/images/person3.svg) no-repeat;
+        background-size: 37%, 40%;
+        background-position: -20% 12%, 125% 28%;
+
+        padding: 2rem 0;
+        margin: 0;
+
+        section{
+            strong{
+                margin-top: 0;
+
+                font-size: 3.6rem;
+                line-height: 3rem;
+            }
+            p{
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+                text-align: center;
+                
+                margin: 1.4rem auto 0;
+                
+                width: 21rem;
+            }
+        }
+        a{
+            border-radius: .7rem;
+            
+            width: 41%;
+            height: 3.1rem;
+
+            font-size: 1.3rem;
+
+            margin-top: 1rem;
+        }
+    }
+}
+
 @media screen and (min-width: 425px) {
     main{
         /*margin: 4.9rem 2.5rem 0;*/

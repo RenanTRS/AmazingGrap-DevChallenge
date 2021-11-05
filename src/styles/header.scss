@@ -127,6 +127,56 @@ header{
     }
 }
 
+/*JioPhone2*/
+@media screen and (width: 320px) and (height: 240px){
+    header{
+        padding: 0 3rem;
+
+        h2{
+            font-size: 1.5rem;
+        }
+
+        .menu-toggle.on .one{
+            transform: rotate(45deg) translate(4.6px, 3.5px) scale(1.3);
+        }
+        .menu-toggle.on .two, .menu-toggle.on .three{
+            opacity: 0;
+        }
+        .menu-toggle.on .four{
+            transform: rotate(-45deg) translate(5px, -4px) scale(1.3);
+        }
+    }
+    .menu-section{
+        div{
+            gap: .2rem;
+
+            span.one, span.two, span.three, span.four{
+                height: .2rem;
+                width: 1.5rem;
+            }
+        }
+        
+        nav{
+            top: 4.6rem;
+
+            padding: 2rem 0;
+
+            ul{
+                gap: 2rem;
+
+                a{
+                    font-size: 2rem;
+                }
+            }
+        }
+        nav.active{
+            width: 13rem;
+
+            padding: 2rem 3rem;
+        }
+    }
+}
+
 @media screen and (min-width: 1440px) {
     header{
         /*margin: 8.1rem 5.2rem 0;*/

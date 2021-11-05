@@ -52,6 +52,20 @@ li{
     height: 100%;
     max-width: 144rem;
 }
+/*JioPhone2*/
+@media screen and (width: 320px) and (height: 240px){
+    #container{
+        /*
+        background: url(../assets/images/person1.svg) no-repeat, url(../assets/images/person3.svg) no-repeat;
+        background-size: 40%, 40%;
+        background-position: -23% 53%, 125% 62%;
+        */
+        padding: 3rem 0;
+
+        height: 100vh;
+    }
+}
+
 @media screen and (min-width: 320px) {
     #container{
         overflow: hidden;
