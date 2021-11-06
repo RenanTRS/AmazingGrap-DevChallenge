@@ -109,16 +109,56 @@ main.toggle{
         }
     }
 }
+*/
+@media screen and (min-width: 160px){
+    main{
+        background: url(../assets/images/person1.svg) no-repeat, url(../assets/images/person3.svg) no-repeat;
+        background-size: 37%, 40%;
+        background-position: -20% 7%, 125% 39%;
 
 @media screen and (min-width: 425px) {
     main{
         /*margin: 4.9rem 2.5rem 0;*/
 
+        align-items: flex-start;
+
+        text-align: left;
+        
+        margin: 0 0 0 4rem;
+        padding: 0;
+
+        height: initial;
+        
+        >img{
+            display: none;
+        }
+        section{
+            width: clamp(34rem, 70vw ,46rem);
+            
+            strong{
+                margin: clamp(2rem, 5vh, 5rem) 0 0;
+            
+                font-size: clamp(2rem, 7vw, 5rem);
+                line-height: clamp(3.8rem, 13vh, 6rem);
+            }
+            p{
+                margin: 1.5rem 0 0;
+                
+                font-size: clamp(1.5rem, 2vw, 3.8rem);
+                line-height: clamp(2.2rem, 4vh, 4.4rem);
+                
+                width: clamp(22rem, 37vw, 28rem);
+            }
+
+        }
         a{
             /*margin: 2.3rem 0 2rem;*/
         }
     }
+
 }
+
+/*
 @media screen and (min-width: 660px){
     main{
         section{

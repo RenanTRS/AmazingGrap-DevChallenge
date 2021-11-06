@@ -87,6 +87,22 @@ header{
     }
 }
 
+@media screen and (min-width: 280px){
+    header{
+        padding: 0 3rem;
+    }
+    .menu-section{
+        nav{
+            top: 6.9rem;
+            padding: 2.3rem 0;
+        }
+        nav.active{
+            width: 17.5rem;
+
+            padding: 2.3rem 3rem;
+        }
+    }
+}
 
 @media screen and (min-width: 1024px) {
     header{
