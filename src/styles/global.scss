@@ -60,6 +60,11 @@ li{
         padding: 4.4rem 0 0;
     }
 }
+@media screen and (min-width: 1024px) and (max-width: 1200px) and (min-height: 1360px) and (max-height: 1370px){
+    #container{
+        padding: 6.4rem 0 0;
+    }
+}
 
 @media screen and (min-width: 1025px) {
     #container{
