@@ -139,7 +139,9 @@ main.toggle{
 /*Mobile landscape*/
 @media screen and (min-height: 270px) and (max-height: 610px) and (min-width: 460px) and (max-width: 965px){
     main{
-        background: initial;
+        background: url(../assets/images/team.svg) no-repeat;
+        background-size: clamp(25%, 51vw, 85%);
+        background-position: 100% 50%;
 
         align-items: flex-start;
 
