@@ -19,7 +19,8 @@ export function Main(){
     return (
         <>
             <main onClick={hideMenu}>
-                <img src={team} alt="Team" />
+                {/*
+                <img src={team} alt="Team" />*/}
                 <section>
                     <strong>Create amazing graphics</strong>
                     <p>Colaborate and create beautiful graphics with your team.</p>
