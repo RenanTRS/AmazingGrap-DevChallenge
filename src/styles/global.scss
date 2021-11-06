@@ -47,41 +47,24 @@ li{
 }
 
 #container{
-    padding: 4.4rem 3rem 0;
+    padding: 4.4rem 0 0;
     width: 100%;
     height: 100%;
     max-width: 144rem;
 }
-/*JioPhone2*/
-@media screen and (width: 320px) and (height: 240px){
-    #container{
-        /*
-        background: url(../assets/images/person1.svg) no-repeat, url(../assets/images/person3.svg) no-repeat;
-        background-size: 40%, 40%;
-        background-position: -23% 53%, 125% 62%;
-        */
-        padding: 3rem 0;
 
-        height: 100vh;
+
+@media screen and (max-width: 320px){
+    #container{
+        /*padding: 4.4rem 3rem 0;*/
+        padding: 4.4rem 0 0;
     }
 }
 
-@media screen and (min-width: 320px) {
-    #container{
-        overflow: hidden;
-    }
-}
-@media screen and (min-width: 770px) {
-    #container{
-        overflow: hidden;
-    }
-}
 @media screen and (min-width: 1024px) {
     #container{
         background: url(../assets/images/team.svg) no-repeat;
-        /*background-size: 58rem;*/
         background-size: clamp(60rem, 50vw, 82rem);
-        /*background-position: 100% 19rem;*/
         background-position: 100% 104%;
 
         padding: 0;
@@ -89,23 +72,4 @@ li{
         margin: auto;
     }
     
-}
-@media screen and (min-width: 1270px) {
-    #container{
-        /*background-size: 66rem;*/
-        /*background-position: 100% 186px;*/
-        /*padding: 0px 0 3rem 0;*/
-    }
-}
-
-@media screen and (min-width: 1300px) {
-    #container{
-        /*background-position: 100% 186px;*/
-    }
-}
-@media screen and (min-width: 1440px){
-    #container{
-        /*background-size: 82rem;*/
-        /*background-position: 100% 346px;*/
-    }
 }
