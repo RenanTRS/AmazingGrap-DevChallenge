@@ -110,6 +110,7 @@ main.toggle{
     }
 }
 */
+/*Mobile*/
 @media screen and (min-width: 160px){
     main{
         background: url(../assets/images/person1.svg) no-repeat, url(../assets/images/person3.svg) no-repeat;
@@ -134,6 +135,8 @@ main.toggle{
         }
     }
 }
+
+/*Mobile landscape*/
 @media screen and (min-height: 270px) and (max-height: 610px) and (min-width: 460px) and (max-width: 965px){
     main{
         background: initial;
@@ -182,6 +185,33 @@ main.toggle{
     }
 
 }
+/*Tablet*/
+@media screen and (min-height: 611px) and (max-height: 1367px) and (min-width: 600px) and (max-width: 1024px){
+    main{
+        background-size: 37%, 40%;
+        background-position: -18% 20%, 125% 27%;
+
+        padding: 2rem 0 0;
+
+        height: 92vh;
+        section{
+            strong{
+                font-size: clamp(7rem, 15vw, 21rem);
+                line-height: clamp(10rem, 13vh, 27rem);
+
+                width: clamp(42rem, 60vw, 60rem);
+
+                margin: 0 auto;
+            }
+            p{
+                font-size: clamp(2.5rem, 4vw, 4.8rem);
+                line-height: clamp(5.2rem, 6vh, 4.4rem);
+
+                width: clamp(32rem, 61vw, 59rem);
+            }
+        }
+    }
+}
 
 /*
 @media screen and (min-width: 660px){
@@ -194,7 +224,8 @@ main.toggle{
     }
 
 }*/
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 1025px) {
     main{
         align-items: flex-start;
         
@@ -220,7 +251,6 @@ main.toggle{
             }
 
             p{
-                /*margin-top: 3.2rem;*/
                 margin: 3.2rem 0 0;
                 
                 font-size: clamp(2.6rem, 2vw, 3.8rem);
