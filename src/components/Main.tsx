@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../styles/main.scss";
-import team from "../assets/images/team.svg";
+//import team from "../assets/images/team.svg";
 
 export function Main(){
     function hideMenu(){
